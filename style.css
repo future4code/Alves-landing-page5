@@ -47,4 +47,36 @@ img {
     p {
         color: red;
     }
+
+  }
+
+  
+.footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+
+}
+
+
+.logofooter {
+  width: 150px;
+
+}
+
+
+.cidadesFora{
+  display: flex;
+
+}
+
+.cidades {
+  margin: 0 100px 0 0;
+  justify-content: flex-start;
+}
+
+
+
+footer {
+  background-color: lightgray;
 }
