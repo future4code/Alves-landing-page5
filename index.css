@@ -75,6 +75,47 @@ header {
     width: 75px;
 }
 
+/* ----------CAIXA DE PESQUISA--------- */
+
+h3 {
+    text-shadow: 0 1px 3px rgba(123, 52, 8, 0.6);
+}
+
+#divBusca {
+    background-color: #f9e3ca;
+    border: solid 2px #463608;
+    border-radius: 10px;
+    /* width: 300px; */
+    /* comprimento modificado */
+    width: 800px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 100px;
+    font-weight: bold;
+    color: antiquewhite;
+    background: rgb(104, 72, 72);;
+}
+
+#divBusca img {
+    float: left;
+}
+
 /* ----------Main--------- */
 
 main {
