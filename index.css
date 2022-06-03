@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,600;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Montserrat:wght@200&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     font-family: "Open Sams", sans-serif;
 }
+
+/* ----- CABEÇALHO ----- */
 
 header {
     display: flex;
@@ -70,51 +71,7 @@ header {
     padding: 0;
     width: 75px;
 }
-
-main {
-    display: flex;
-    align-items: center;
-}
-
-main p {
-    font-size: 36px;
-    margin: 0 140px;
-    text-align: center;
-    font-family: 'Gentium Plus', serif;
-    /* font-family: 'Montserrat', sans-serif; */
-    line-height: 60px;
-}
-
-main img {
-    width: 550px;
-}
-
-.fastFood {
-    width: 300px;
-    flex-direction: row;
-    /* height: 250px; */
-    /* border: 1px solid black; */
-    box-shadow: 1px 1px 5px black;
-    /* display: flex; */
-    /* align-items: center; */
-    /* border: solid red; */
-}
-
-.mercado {
-    width: 300px;
-    flex-direction: row;
-    /* height: 250px; */
-    /* border: 1px solid black; */
-    box-shadow: 1px 1px 5px black;
-    /* display: flex; */
-    /* align-items: center; */
-    /* border: solid red; */
-}
-
-img {
-    width: 100%;
-    /* border: solid green; */
-}
+/* ------------------- */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     main {
@@ -130,36 +87,4 @@ img {
     p {
         color: red;
     }
-
-  }
-
-  
-.footer {
-  display: flex;
-  width: 100%;
-  height: 80px;
-
-}
-
-
-.logofooter {
-  width: 150px;
-
-}
-
-
-.cidadesFora{
-  display: flex;
-
-}
-
-.cidades {
-  margin: 0 100px 0 0;
-  justify-content: flex-start;
-}
-
-
-
-footer {
-  background-color: lightgray;
 }
