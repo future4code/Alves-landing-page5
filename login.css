@@ -8,6 +8,7 @@ body {
 }
 
 header img {
+    display: block;
     width: 125px;
     margin: 15px;
 }
@@ -17,7 +18,7 @@ header img {
     flex-direction: column;
     max-width: 400px;
     min-height: 400px;
-    margin: 50px auto;
+    margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -73,17 +74,25 @@ form button:hover {
 
 .problemas {
     display: flex;
-    /* flex-direction: column; */
     margin: 70px 0 0 0;
     justify-content: space-between;
 }
 
 .problemas a {
-    /* margin: 20px 0 0 0; */
-    /* text-decoration: none; */
     color: black;
 }
 
 .problemas a:hover {
     color: blue;
+}
+
+/* ----- RESPONSIVIDADE ----- */
+@media screen and (max-width: 414px) {
+    /* and (max-width: 480px) */
+
+    /* ----- CABEÇALHO ----- */
+    header img {
+        margin: 4px auto;
+        /* text-align: center; */
+    }
 }
