@@ -8,6 +8,7 @@ body {
 }
 
 header img {
+    display: block;
     width: 125px;
     margin: 15px;
 }
@@ -65,4 +66,15 @@ form button {
 
 form button:hover {
     background-color: rgb(163, 32, 32);
+}
+
+/* ----- RESPONSIVIDADE ----- */
+@media screen and (max-width: 414px) {
+    /* and (max-width: 480px) */
+
+    /* ----- CABEÇALHO ----- */
+    header img {
+        margin: 20px auto;
+        /* text-align: center; */
+    }
 }
