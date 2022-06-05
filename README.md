@@ -5,7 +5,7 @@ Site 4Food
 http://4food-alves.surge.sh/
 
 # Descrição
-4Food é um sistema de compras e entregas recorrentes por aplicativo. O sistema possibilita a realização de compras de supermercado online e também de lanches prontos (fast food). Para organização, o site é composto por um menu superior, horizontal no qual existem as seguintes abas: <br/>
+4Food é um sistema de compras e entregas recorrentes por aplicativo. O sistema possibilita a realização de compras de supermercado online e também de lanches prontos (fast food). Para organização, o site é composto por um menu superior, horizontal, no qual existem as seguintes abas: <br/>
 -> Início <br/>
 -> Fazer pedido <br/>
 -> Quem somos <br/>
@@ -13,7 +13,7 @@ http://4food-alves.surge.sh/
 -> Login <br/>
 -> Registrar <br/>
 -> Recuperar senha <br/>
-Ainda, existem algumas opções de iteração do usuário com o sistema, como por exemplo:
+Ainda, existem algumas opções de iteração do usuário com o sistema, como por exemplo: <br/>
 -> Links para redes sociais <br/>
 -> Espaços para campos de busca
 
