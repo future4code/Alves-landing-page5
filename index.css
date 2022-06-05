@@ -7,7 +7,6 @@ body {
 }
 
 /* ----- CABEÇALHO ----- */
-
 header {
     display: flex;
     align-items: center;
@@ -76,7 +75,6 @@ header {
 }
 
 /* ----------CAIXA DE PESQUISA--------- */
-
 h3 {
     text-shadow: 0 1px 3px rgba(123, 52, 8, 0.6);
 }
@@ -85,8 +83,6 @@ h3 {
     background-color: #f9e3ca;
     border: solid 2px #463608;
     border-radius: 10px;
-    /* width: 300px; */
-    /* comprimento modificado */
     width: 800px;
     height: 32px;
 }
@@ -118,13 +114,11 @@ h3 {
 }
 
 /* ----------Main--------- */
-
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 
 .fastFood {
     width: 800px;
@@ -241,7 +235,6 @@ h2 {
 }
 
 /* ----------footer--------- */
-
 .footer {
     display: flex;
     width: 100%;
@@ -249,11 +242,9 @@ h2 {
 
 }
 
-
 .logofooter {
     width: 70px;
     padding: 0px 15px 20px 10px;
-
 }
 
 .social {
@@ -278,8 +269,6 @@ h2 {
     justify-content: flex-start;
 }
 
-
-
 footer {
     background-color: lightgray;
 }
@@ -294,14 +283,11 @@ footer h4 {
 }
 
 /* LOGO SOCIAL COM ZOOM */
-
 .social img {
     overflow: hidden;
 }
 
 .boxsocial1 img {
-    /* width: 100%; */
-    /* box-shadow: 1px 1px 5px black; */
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -309,8 +295,6 @@ footer h4 {
 }
 
 .boxsocial2 img {
-    /* width: 100%; */
-    /* box-shadow: 1px 1px 5px black; */
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -318,8 +302,6 @@ footer h4 {
 }
 
 .boxsocial3 img {
-    /* width: 100%; */
-    /* box-shadow: 1px 1px 5px black; */
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -327,8 +309,6 @@ footer h4 {
 }
 
 .boxsocial4 img {
-    /* width: 100%; */
-    /* box-shadow: 1px 1px 5px black; */
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -361,19 +341,13 @@ footer h4 {
 
 
 /* ----------media screen--------- */
-
-
 @media screen and (max-width: 414px) {
-
-    /* and (max-width: 480px) */
     header {
         display: flex;
-        /* border: green solid; */
         height: 240px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        /* border: solid green */
     }
 
     .cabecalho-esquerdo {
@@ -455,7 +429,6 @@ footer h4 {
         flex-direction: column;
         justify-content: center;
     }
-
 
     .cidadesFora {
         display: flex;

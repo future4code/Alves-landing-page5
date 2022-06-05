@@ -86,15 +86,14 @@ main {
     margin: 0 140px;
     text-align: center;
     font-family: 'Gentium Plus', serif;
-    /* font-family: 'Montserrat', sans-serif; */
     line-height: 60px;
 }
 
 main img {
     width: 550px;
 }
-/* ----- RODAPÉ ----- */
 
+/* ----- RODAPÉ ----- */
 footer {
     display: flex;
     justify-content: space-between;
@@ -123,106 +122,73 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
-    
 
-    /* body{
-        font-family: "Open Sams", sans-serif;
-    } */
-
-    
     header {
         display: flex;
-        /* border: green solid; */
         height: 280px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .autenticacao {
         margin: 0;
         padding: 0 10px 0 10px;
     }
- 
-    
-    
+
     .cabecalho-esquerdo {
         flex-direction: column;
-        margin: 0;
+        margin: 0 30px;
     }
-    
+
     .cabecalho-esquerdo .logo {
-        margin: 0;
+        margin: 20px;
     }
-    
-    .menu a{
+
+    .menu a {
         padding: 0;
-        
-        
     }
-    
-    
+
     .menu {
         flex-direction: column;
-        /* justify-content: start; */
         align-items: flex-start;
-        
-    }
-    
-    
-    .menu li{
-        /* padding: 0; */
+     }
+
+    .menu li {
         text-align: center;
     }
-    
-    
-    .logo-main{
+
+    .logo-main {
         display: none;
     }
-    
- 
 
-    .main-paragrafos{
+    .main-paragrafos {
         font-size: 18px;
         text-align: center;
-        /* border: 1px solid blue; */
         width: 100%;
         margin: 0;
         padding: 0;
         line-height: 30px;
-        
-        
     } 
 
-    main{
-        /* border: 1px solid red; */
+    main {
         margin: 0;
         height: 350px;
-    
     }
-
-
 
     footer {
         display: flex;
         position: relative;
         bottom: 0;
-        
-        
     }
-   
-    .rodape-texto{
+
+    .rodape-texto {
         text-align: center;
         font-size: 15px;
         margin-left: 20px;
-        /* border: 1px solid red; */
     }
 
-    .rodape-redes{
+    .rodape-redes {
         margin-right: 0;
     }
-
-     
-     
-
 }
