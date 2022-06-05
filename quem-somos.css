@@ -78,19 +78,19 @@ header {
 main {
     display: flex;
     align-items: center;
-    height: 720px;
+    height: 500px;
 }
 
 .main-paragrafos {
-    font-size: 36px;
+    font-size: 24px;
     margin: 0 140px;
     text-align: center;
     font-family: 'Gentium Plus', serif;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 main img {
-    width: 550px;
+    width: 250px;
 }
 
 /* ----- RODAPÉ ----- */
