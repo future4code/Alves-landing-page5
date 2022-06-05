@@ -162,14 +162,14 @@ footer {
         display: none;
     }
 
-    .main-paragrafos {
+     .main-paragrafos {
         font-size: 18px;
         text-align: center;
         width: 100%;
         margin: 0;
         padding: 0;
         line-height: 30px;
-    } 
+    }  
 
     main {
         margin: 0;
@@ -191,4 +191,47 @@ footer {
     .rodape-redes {
         margin-right: 0;
     }
+}
+
+@media screen and (min-width: 415px) and (max-width: 1400px){
+    header{
+        margin-bottom: 0;
+    }
+
+
+   main div{
+       border: 1px solid red;
+       line-height: 10px;
+    }
+   
+   footer{
+       display: flex;
+       position: fixed;
+       bottom: 0;
+   }
+
+   .main-paragrafos {
+   font-size: 30px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   line-height: 35px;
+
+}
+
+.paragrafopai{
+    margin: 50px
+}
+
+main {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   border: 5px solid red;
+   height: 670px;
+
+
+}
+
 }
