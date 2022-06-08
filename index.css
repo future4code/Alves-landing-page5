@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,600;1,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sams", sans-serif;
+}
+
+/* ----- CABEÇALHO ----- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    border-bottom: solid 5px rgb(104, 72, 72);
+    margin-bottom: 20px;
+    height: 125px;
+}
+
+.menu ul,
+.menu-autenticacao ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li,
+.menu-autenticacao li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.cabecalho-esquerdo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.menu a,
+.menu-autenticacao a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.autenticacao {
+    margin-right: 40px;
+}
+
+.destaque {
+    border-radius: 30px;
+    background-color: rgb(104, 72, 72);
+    color: white;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid;
+    margin: 0;
+}
+
+.login:hover {
+    border-bottom: 2px solid;
+    margin: 0;
+}
+
+.destaque:hover {
+    color: white;
+}
+
+.logo {
+    margin-right: 30px;
+    padding: 0;
+    width: 75px;
+}
+
+/* ----------CAIXA DE PESQUISA--------- */
+h3 {
+    text-shadow: 0 1px 3px rgba(123, 52, 8, 0.6);
+}
+
+#divBusca {
+    background-color: #f9e3ca;
+    border: solid 2px #463608;
+    border-radius: 10px;
+    width: 800px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: right;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 100px;
+    font-weight: bold;
+    color: antiquewhite;
+    background: rgb(104, 72, 72);
+    cursor: pointer;
+}
+
+#divBusca img {
+    float: left;
+}
+
+/* ----------Main--------- */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.fastFood {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mercado {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.img {
+    overflow: hidden;
+}
+
+.box1 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box2 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box3 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box4 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box5 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box6 img {
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box1:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box2:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box3:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box4:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box5:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box6:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ----------footer--------- */
+.cidadesFora {
+    display: flex;
+    margin-left: 40px;
+}
+
+.cidades {
+    margin: 0px 100px 0px 10px;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    background-color: lightgray;
+    border-top: solid 4px rgb(104, 72, 72);
+    height: 330px;
+}
+
+footer h4 {
+    text-align: start;
+    padding: 10px 0px 0px 10px;
+    margin-left: 40px;
+}
+
+.rodape-redes {
+    margin: 10px 40px 10px 0;
+    padding: 0;
+}
+
+.rodape-redes img {
+    width: 30px;
+    margin: 0 0 0 10px;
+}
+
+.aa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bb {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.bb img {
+    margin-bottom: 0;
+}
+
+/* LOGO SOCIAL COM ZOOM */
+.social img {
+    overflow: hidden;
+}
+
+.boxsocial1 img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.boxsocial2 img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.boxsocial3 img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.boxsocial4 img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.boxsocial1:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.boxsocial2:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.boxsocial3:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.boxsocial4:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/* ----------media screen--------- */
+/* @media screen and (max-width: 414px) { */
+@media screen and (min-device-width : 220px) and (max-device-width : 580px) {
+    header {
+        display: flex;
+        height: 270px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cabecalho-esquerdo {
+        flex-direction: column;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .cabecalho-esquerdo .logo {
+        margin-right: 0;
+    }
+
+    a.login {
+        margin: 0;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .autenticacao {
+        margin: 0 0 10px 0;
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu a {
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    #divBusca {
+        flex-direction: column;
+        align-items: unset;
+        width: 98%;
+    }
+
+    .fastFood {
+        flex-direction: column;
+        align-items: unset;
+        width: 100%;
+    }
+
+    .mercado {
+        flex-direction: column;
+        align-items: unset;
+        width: 100%;
+    }
+
+    footer {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        height: 380px;
+    }
+
+    .logofooter {
+        width: 30%;
+    }
+
+    .divSocial {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cidadesFora {
+        display: flex;
+    }
+
+    .cidades {
+        text-align: center;
+        margin: 0 20px 0 0;
+        justify-content: flex-start;
+    }
+}
